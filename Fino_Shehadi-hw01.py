@@ -1,6 +1,6 @@
-# Shehadi
+# Shehadi Fino
 # COSC 1010
-# Submission Date: 10-15-24
+# Submission Date: 10-14-24
 # HW 01
 # Lab Section:14
 # Sources, people worked with, help given to: Ryan
