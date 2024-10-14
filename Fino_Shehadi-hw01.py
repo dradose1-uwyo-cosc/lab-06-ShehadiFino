@@ -30,7 +30,7 @@ students = [
 # Your task is to calculate the average scores for each student and print the names of students
 # whose average score is greater than 80.
 
-#Solution
+#Solutionl6
 
 average_scores = {}
 
@@ -41,6 +41,6 @@ for student in students:
     average_scores[name] = average
 
 print("Students with average scores greater than 80:")
-for name, avg in average_scores.items():
-    if avg > 80:
-        print(name)
+for name, average in average_scores.items():
+    if average > 80:
+        print(f"{name}: {average:.2f}")
