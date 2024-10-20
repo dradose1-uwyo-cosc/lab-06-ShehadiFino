@@ -1,13 +1,12 @@
 # Shehadi Fino
 # COSC 1010
-# 10-14-24
-# Lab 6
+# 10-19-24
+# Lab 06
 # Lab Section: 14
 # Sources, people worked with, help given to: Ryan
 # your
 # comments
 # here
-
 
 random_string = """
 jppamiqxegokaizvkyawwurhewtcxohryzptznyuedhhmawpic
@@ -61,6 +60,7 @@ lrslowamkcwolbcgfkfciegdwqskuazxnycqkkggzsowcmafay
 ibmkdwkqmdkjesqnjiqpijixbwjhenmsrrlpcseliiajlvcaac
 zkdenxczyooloczcaahnkehbwimvieedpdlqfafbqvxvfmvabd
 """
+
 random_string = random_string.replace("\n","") #remove all newline characters
 print(len(random_string)) # Print out the size for reference 
 
@@ -99,6 +99,7 @@ sorted_count = dict(sorted(character_count.items()))
 for character, count in sorted_count.items():
     print(f"{character}: {count}")
 print("*"*75)
+
 # Output which letter occurred the most 
 
 most_occurred = max(sorted_count, key = sorted_count.get)
@@ -106,7 +107,9 @@ least_occurred = min(sorted_count, key = sorted_count.get)
 
 print(f"The letter that occurred the most is {most_occurred}")
 print("*"*75)
+
 # Output which letter occurred the least 
+
 print(f"The letter that occurred the most is {least_occurred}")
 print("*"*75)
 
