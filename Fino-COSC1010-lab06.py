@@ -94,6 +94,7 @@ for character in random_string:
 
 # Output: each letter and its corresponding occurrence in alphabetical order
 
+print("Character occurences:g")
 sorted_count = dict(sorted(character_count.items()))
 
 for character, count in sorted_count.items():
@@ -115,7 +116,7 @@ print("*"*75)
 
 # Output what the percentage of the string each character is, again in alphabetical
 
-print("Charecter Percentages:")
+print("Character Percentages:")
 for character, count in sorted_count.items():
     percentage = (count / len(random_string)) * 100
     print(f"{character}: {percentage:.2f}%")
